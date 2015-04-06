@@ -1,5 +1,4 @@
 import QtQuick 2.1
-import QtQuick.Layouts 1.0
 import QmlVlc 0.1
 
 Rectangle {
