@@ -1,0 +1,8 @@
+{
+  "main": "app://host/index.html",
+  "name": "nw-webchimera-demos",
+  "chromium-args": "--load-plugin=plugins\\npWebChimera.dll",
+  "webkit": {
+    "plugin": true
+  }
+}
