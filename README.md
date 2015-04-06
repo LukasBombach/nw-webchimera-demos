@@ -6,7 +6,7 @@ This repository demonstrates how to write a basic interface for [WebChimera](htt
 
 ### On OS X
 
-1. [Download nw.js](https://github.com/nwjs/nw.js/#downloads), use the `64bit` version
+1. [Download nw.js](https://github.com/nwjs/nw.js/#downloads), choose the `64bit` version
 2. Extract nw.js and copy the files from this repository to your nw root directory.
 3. [Download WebChimera](http://www.webchimera.org/download) for Mac
 4. From your downloaded WebChimera disk image, copy the file `WebChimera.plugin` to the `plugins` folder in your nw root directory.
@@ -14,7 +14,7 @@ This repository demonstrates how to write a basic interface for [WebChimera](htt
 
 ### On Windows
 
-1. [Download nw.js](https://github.com/nwjs/nw.js/#downloads), use the `32bit` version
+1. [Download nw.js](https://github.com/nwjs/nw.js/#downloads), choose the `32bit` version
 2. Extract nw.js and copy the files from this repository to your nw root directory.
 3. [Download the latest WebChimera from the releases at GitHub](https://github.com/RSATom/WebChimera/releases). Choose the file named WebChimera_X.X.X_vlc_X.X.X.zip
 4. Extract all of the contents of the zip file to the `plugins` folder in your nw root directory.
