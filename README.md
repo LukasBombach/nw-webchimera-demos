@@ -20,4 +20,4 @@ Once installed simply run nw. You will be presented with an index page containin
 
 To learn how to write QML, [@jaruba](https://github.com/jaruba) wrote a nice [tutorial on how to get started with QML](https://github.com/RSATom/WebChimera/wiki/Getting-started-with-QML) on the WebChimera Wiki.
 
-To learn how to ship WebChimera on Windows without having your users using the WebChimera setup, jaruba set up [a repository](https://github.com/jaruba/WebChimeraPlayerNW) that includes everything needed.
+To learn how to ship WebChimera on Windows without having your users install WebChimera, jaruba set up [a repository](https://github.com/jaruba/WebChimeraPlayerNW) that includes everything needed.
