@@ -1,6 +1,6 @@
 # nw.js webchimera demos
 
-This repository demonstrates how to write a basic interface for [WebChimera](https://github.com/RSATom/WebChimera/) using nw.js (node-webkit) and either QML or CSS / JavaScript.
+This repository demonstrates how to write a basic interface for [WebChimera](https://github.com/RSATom/WebChimera/) using nw.js (node-webkit) and either QML or CSS & JavaScript.
 
 ## Installation
 
