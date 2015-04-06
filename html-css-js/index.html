@@ -3,6 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>NW.js WebChimera demo using CSS and JavaScript</title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <style>
 
         #container {
@@ -23,6 +24,8 @@
 </head>
 <body>
 
+<h2>NW.js WebChimera demo using CSS / JS</h2>
+
 <div id="container">
     <object id="player" type="application/x-chimera-plugin" width="600" height="338">
         <param name="mrl" value="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.avi" />
@@ -31,16 +34,16 @@
     <div id="interface"></div>
 </div>
 
-<p>
-    <a href="../index.html">Go back</a> | <a href="http://lukasbombach.de/">lukasbombach.de</a>
-</p>
-
 <script type="text/javascript">
     var player = document.getElementById('player');
     document.getElementById('interface').addEventListener('click', function() {
         player.togglePause();
     });
 </script>
+
+<p>
+    <a href="../index.html">Go back</a>
+</p>
 
 </body>
 </html>
