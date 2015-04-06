@@ -1,0 +1,7 @@
+{
+  "main": "app://host/index.html",
+  "name": "nw-webchimera-demos",
+  "webkit": {
+    "plugin": true
+  }
+}

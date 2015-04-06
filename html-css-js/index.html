@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>NW.js WebChimera demo using CSS and JavaScript</title>
+    <style>
+
+        #container {
+            position: relative;
+        }
+
+        #interface {
+            position: absolute;
+            top: 268px;
+            left: 190px;
+            width: 220px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.75);
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <object id="player" type="application/x-chimera-plugin" width="600" height="338">
+        <param name="mrl" value="http://download.blender.org/peach/bigbuckbunny_movies/big_buck_bunny_480p_stereo.avi" />
+        <param name="windowless" value="true" />
+    </object>
+    <div id="interface"></div>
+</div>
+
+<p>
+    <a href="../index.html">Go back</a> | <a href="http://lukasbombach.de/">lukasbombach.de</a>
+</p>
+
+<script type="text/javascript">
+    var player = document.getElementById('player');
+    document.getElementById('interface').addEventListener('click', function() {
+        player.togglePause();
+    });
+</script>
+
+</body>
+</html>
