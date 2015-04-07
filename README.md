@@ -27,3 +27,5 @@ Once installed simply run nw. You will be presented with an index page containin
 ## Further reading
 
 To learn how to write QML, [@gyzerok](https://github.com/gyzerok) wrote a nice [tutorial on how to get started with QML](https://github.com/RSATom/WebChimera/wiki/Getting-started-with-QML) on the WebChimera Wiki.
+
+Dig into the [WebChimera JavaScript API](https://github.com/RSATom/WebChimera/wiki/JavaScript-API) to see how to implement interfaces using JavaScript
